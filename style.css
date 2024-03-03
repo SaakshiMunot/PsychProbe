@@ -1,0 +1,135 @@
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-item {
+    margin-right: 20px;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-item a:hover {
+    color: #ccc;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+/* STYLE SECTIONING TAGS */
+body {
+    /* font-family: "Lucida Console", helvetica, arial, Monospace; */
+    font-family: montserrat, sans-serif;
+    /* margin: 1em; */
+    background-image: url("background.jpg");
+    background-size: cover;
+    text-align: center;
+  }
+  
+  /* STYLE TEXT */
+  .disclaimer {
+    margin-top: 10vh;
+  }
+
+  #disc{
+    color: rgb(62, 28, 2);
+  }
+  
+  header {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    color: white
+  }
+  
+  /* h1 {
+    font-style: italic, bold;
+    font-family: "Times New Roman", Times, serif;
+    color: white
+  } */
+  
+  h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    margin-top: 1em;
+    color: #470a5c;
+  }
+  
+  /* STYLE FLEX CONTAINER */
+  .question {
+    display: flex;
+    /* uncomment the next line to center the questions and answers */
+    justify-content: center;
+    margin-top: 2em;
+  }
+  
+  /* STYLE FLEX ITEM */
+  .answer-choice {
+    margin: 0px;
+  }
+  
+  
+  /* STYLE IMAGES */
+  /* .answer-choice img {
+    height: 15em;
+    border-radius: 8px;
+    padding: 10px;
+    border: 4px solid white;
+  }
+   */
+  
+  /* STYLE BUTTON */
+  button {
+    color: #470a5c;
+    font-family: "Times New Roman", Times, serif;
+    /* border-color: yellow; */
+    background-color: transparent;
+    box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+    border-width: 0;
+    margin-right: 10%;
+    margin-top: 0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    /* Added semicolon */
+    font-size: 20px;
+  }
+
+  .end_btns{
+    margin: none;
+    display: flex;
+    margin-left: 0;
+    justify-content: center;
+  }
